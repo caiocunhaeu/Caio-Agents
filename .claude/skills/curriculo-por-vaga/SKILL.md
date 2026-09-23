@@ -19,7 +19,7 @@ Resolve um problema específico: pegar um currículo existente de Caio e uma vag
 
 1. **Reúna as duas entradas.** Currículo atual de Caio (arquivo ou texto colado) e o texto da vaga-alvo. Se faltar uma das duas, peça antes de prosseguir; não infira vaga a partir de cargo genérico.
 2. **Mapeie a vaga.** Extraia requisitos centrais, vocabulário técnico e termos que se repetem no anúncio.
-3. **Filtre por relevância.** Para cada linha do currículo atual, pergunte "essa linha prova que eu resolvo o problema desta vaga?". Corte ou reduza o que não prova nada, mesmo que seja verdade e relevante em outro contexto.
+3. **Filtre por relevância.** Para cada linha do currículo atual, pergunte "essa linha prova que eu resolvo o problema desta vaga?". Corte ou reduza o que não prova nada, mesmo que seja verdade e relevante em outro contexto. Antes de reaproveitar um número já existente no currículo original (ex.: "+50 clientes", "+20 projetos"), confirme com Caio o escopo real dele (é de um cargo específico ou acumulado da carreira?) antes de encaixá-lo em qualquer bullet, mesmo sem alterar o número em si.
 4. **Traduza vocabulário.** Troque termo interno de empresa anterior pelo equivalente da vaga (ex.: "storymaker" vira "gestão de conta") quando o significado for realmente o mesmo. Isso sobe a posição no ranking do ATS, não evita uma rejeição automática binária (esse enquadramento é mito, ver referência).
 5. **Decida sobre objetivo/resumo no topo.** Corte objetivo genérico por padrão. Só mantenha ou escreva objetivo se for mudança de carreira significativa, entrada no mercado ou retorno após ausência longa; fora isso, resumo direcionado ou nada.
 6. **Neutralize saídas de emprego.** Data, cargo, ponto final. Nunca justifique ou explique o motivo da saída dentro do currículo, isso fica para a entrevista.
@@ -39,5 +39,6 @@ Os princípios acima foram validados especificamente para currículo. Se Caio pe
 - Nunca justifique, explique ou defenda o motivo de uma saída de emprego dentro do currículo.
 - Nunca deixe período de freelance ou projeto curto sem data e escopo explícitos.
 - Nunca invente, infle ou arredonde para cima uma métrica ou experiência de Caio para casar melhor com a vaga.
+- Nunca fortaleça o verbo ou a atribuição de uma métrica herdada do currículo original (ex.: trocar "atendimento" por "atendimento direto", ou mover um número de carreira inteira para o bullet de um cargo específico) sem antes confirmar com Caio o escopo real dela. Um número ambíguo no currículo original não vira mais específico só porque ficaria mais forte pra vaga.
 - Nunca apresente estatística de fonte única e sem metodologia (ex.: percentual de aumento de retorno de entrevista) como fato estabelecido; se aparecer, sinalize como não verificada ou não a use.
 - Nunca entregue o currículo reescrito como se já fosse a versão aprovada para envio; é sempre rascunho até Caio revisar.
