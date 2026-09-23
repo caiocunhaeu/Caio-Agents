@@ -4,7 +4,7 @@ Regra mor deste repositório. `caio-agents` é a casa dos agentes e skills que C
 
 ## Domínio
 
-Os agentes daqui giram em torno de conteúdo e marca pessoal: ideação e captura de ideias, escrita aplicando a voz própria de Caio, repurposing de conteúdo longo em formatos derivados por canal, e acompanhamento de calendário editorial. Nenhuma skill aqui deve carregar contexto, tom ou convenção específica da Furla; isso pertence ao repositório dela.
+Os agentes daqui giram em torno de conteúdo, marca pessoal e carreira de Caio: ideação e captura de ideias, escrita aplicando a voz própria dele, repurposing de conteúdo longo em formatos derivados por canal, acompanhamento de calendário editorial, e apoio a candidatura de vaga (adaptação de currículo para uma vaga específica, sempre fornecida manualmente por Caio, nunca busca ou scraping automatizado de portal de emprego). Nenhuma skill aqui deve carregar contexto, tom ou convenção específica da Furla; isso pertence ao repositório dela.
 
 ## Comandos
 
