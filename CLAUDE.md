@@ -6,6 +6,8 @@ Regra mor deste repositório. `caio-agents` é a casa dos agentes e skills que C
 
 Os agentes daqui giram em torno de conteúdo e marca pessoal: ideação e captura de ideias, escrita aplicando a voz própria de Caio, repurposing de conteúdo longo em formatos derivados por canal, e acompanhamento de calendário editorial. Nenhuma skill aqui deve carregar contexto, tom ou convenção específica da Furla; isso pertence ao repositório dela.
 
+Exceção registrada: `transferencia-icloud-rede` é ferramental pessoal de produtividade (organização de arquivos), não conteúdo nem marca. Ficou aqui por decisão explícita do Caio em vez de um repositório dedicado a esse tipo de ferramenta, que ainda não existe. Novo ferramental fora do domínio de conteúdo/marca deve ser tratado como exceção pontual, do mesmo jeito, não como precedente para expandir o escopo deste repositório por padrão.
+
 ## Comandos
 
 Não há build nem teste automatizado — os agentes deste repositório são arquivos Markdown (skills). Antes de entregar uma skill nova, valide manualmente: front matter YAML válido com `name` e `description`; `description` com gatilhos em linguagem natural reconhecíveis; arquivo principal (`SKILL.md`) abaixo de ~200 linhas, com detalhe pesado movido para `references/`.
