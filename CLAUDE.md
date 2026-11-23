@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Regra mor deste repositório. `caio-agents` é a casa dos agentes e skills que Caio constrói para Claude Code focados na própria marca pessoal: construção e melhoria de marca, criação de conteúdo, voz e presença nos canais próprios. Trabalho ligado ao Furla vive em repositório separado, não aqui. Todo agente, subagente ou skill novo criado aqui segue o framework em `.claude/skills/agent-architect/SKILL.md` — carregue essa skill antes de desenhar um agente novo. Este arquivo carrega só as regras específicas deste repositório; o raciocínio profundo fica na skill, carregada sob demanda, para não inchar a memória sempre carregada.
+Regra mor deste repositório. `caio-agents` é a casa dos agentes e skills que Caio constrói para Claude Code focados na própria marca pessoal (construção e melhoria de marca, criação de conteúdo, voz e presença nos canais próprios) e o arquivo-mestre das ferramentas pessoais de uso geral que ele instala na conta do Claude (ver "Skills da conta"). Trabalho ligado ao Furla vive em repositório separado, não aqui. Todo agente, subagente ou skill novo criado aqui segue o framework em `.claude/skills/agent-architect/SKILL.md`: carregue essa skill antes de desenhar um agente novo. Este arquivo carrega só as regras específicas deste repositório; o raciocínio profundo fica na skill, carregada sob demanda, para não inchar a memória sempre carregada.
 
 ## Domínio
 
@@ -13,6 +13,10 @@ Não há build nem teste automatizado — os agentes deste repositório são arq
 ## Arquitetura e convenções
 
 Cada agente vive em `.claude/skills/<nome-em-kebab-case>/SKILL.md`. Material de referência extenso vai em `.claude/skills/<nome>/references/*.md`, nunca inline no `SKILL.md`. Neste repositório: "agente" = uma skill do Claude Code; "subagente" = uma chamada da ferramenta `Agent` com `subagent_type`, isolada da conversa principal; "orquestrador" = o próprio Claude Code decidindo qual skill/subagente acionar. Não existe `manager.py` separado aqui — o Claude Code cumpre esse papel nativamente.
+
+## Skills da conta
+
+`skills-da-conta/<nome>/` guarda o original das skills de uso geral instaladas na aba Habilidades do claude.ai, que valem em todas as sessões, inclusive nas dos clientes (hoje: `llm-council` e `asd-ste100`). Elas ficam fora de `.claude/skills/` de propósito: lá carregariam também nas sessões deste repositório e apareceriam em dobro com a versão da conta. Mantenha cada arquivo idêntico ao ZIP instalado; ao alterar uma delas, gere o ZIP novo, troque em Habilidades e atualize aqui no mesmo commit. Skill de terceiros pode estar em outro idioma; as regras de Estilo valem para o que for escrito aqui, não para reescrever o original sem motivo.
 
 ## Diretrizes de "teste"
 
